@@ -1,0 +1,117 @@
+.button{
+    border-radius: 4px;
+    &-theme{
+        background-color: $theme-color;
+        color: #fff;
+    }
+}
+
+
+//Slider
+
+.tp-caption.Fashion-TextBlock, 
+.Fashion-TextBlock{
+    font-family: $body-font !important;
+    font-weight: normal !important;
+}
+
+.social-icon{
+    &.si-groupon{
+        background-color: #53a318;
+        i{
+            margin-top: 2px;
+        }
+    }
+    &.si-google-business{
+        background-color: #4285F4;
+        i{
+            font-size: 25px;
+            margin-top: 2px;
+        }
+    }
+}
+#header{
+    .svg-trigger path{
+        stroke: #fff;
+    }
+    &.transparent-header{
+        #header-wrap{
+            @include media-breakpoint-down(md){
+                position: fixed;
+                left: 0;
+                width: 100%;
+                z-index: 11;
+                top:0;
+                background-color: rgba(#000, 0.7);
+                padding: 10px 0;
+            }
+            .primary-menu{
+                .menu-menu-container{
+                    width: 100%;
+                    .menu-item{
+                        a{
+                            @include media-breakpoint-down(md){
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        &.dark{
+            .primary-menu{
+                .menu-item{
+                    a{
+                        color : #fff;
+                        //font-family: $body-font ;
+                    }
+                }
+            }
+        }
+
+        &.sticky-header{
+            #header-wrap{
+                background-color: rgba(#333, 0.9);
+            }
+            
+          &.dark{
+            #header-wrap{
+                background-color: rgba(#333, 0.9);
+            }
+          }
+        }
+    }
+}
+// .primary-menu-open{
+//     #header{
+//         &.transparent-header{
+//             #header-wrap{
+//                 @include media-breakpoint-down(md){
+//                     background-color: #fff;
+//                 }
+//             }
+//         }
+//     }
+// }
+.tabs.tabs-responsive{
+    @include media-breakpoint-down(md){
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.widget{
+    &-title{
+        font-size: 24px;
+        color: $theme-color;
+    }
+}
+.appointment-block{
+    .button-theme{
+        width:210px;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

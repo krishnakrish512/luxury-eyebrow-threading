@@ -1,0 +1,33 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("fonts/flaticon/flaticon.ttf?8f4bafdd037c352e829cfdfd7201adc1") format("truetype"),
+url("fonts/flaticon/flaticon.woff?8f4bafdd037c352e829cfdfd7201adc1") format("woff"),
+url("fonts/flaticon/flaticon.woff2?8f4bafdd037c352e829cfdfd7201adc1") format("woff2"),
+url("fonts/flaticon/flaticon.eot?8f4bafdd037c352e829cfdfd7201adc1#iefix") format("embedded-opentype"),
+url("fonts/flaticon/flaticon.svg?8f4bafdd037c352e829cfdfd7201adc1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "google-shopping": "\f101",
+    "groupon": "\f102",
+);
+
+.flaticon-google-shopping:before {
+    content: map-get($flaticon-map, "google-shopping");
+}
+.flaticon-groupon:before {
+    content: map-get($flaticon-map, "groupon");
+}

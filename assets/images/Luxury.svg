@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="353.48pt" height="121.323pt" viewBox="0 0 353.48 121.323">
+<g enable-background="new">
+
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,121.323)" d="M 0 0 L 353.48 0 L 353.48 121.323 L 0 121.323 Z "/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,261.9885,77.3173)" d="M 0 0 C 0 0 35.516 32.828 78.023 4.103 C 78.023 4.103 82.777 2.439 76.625 8.006 C 70.472 13.573 34.397 35.984 -6.712 5.05 C -6.712 5.05 -14.822 -6.313 0 0 " fill="#ffffff"/>
+<g id="Layer-1" data-name="Span">
+</g>
+<text fill="#ffffff" xml:space="preserve" transform="matrix(1 0 -0 1 0 121.323)" font-size="36.1592" font-family="MerriweatherSans"><tspan y="-19.0031" x="10.4094 31.779488 51.341619 71.51845 93.79252 108.00308 129.30086 158.51749 165.02614 187.84259 210.76752 224.9817 245.15854 265.37153 287.50096 298.1679 320.98439">Eyebrow Threading</tspan></text>
+</g>
+<g id="Layer-1" data-name="Span">
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,0,121.323)" d="M 0 0 L 353.48 0 L 353.48 121.323 L 0 121.323 Z "/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<text fill="#f37a75" xml:space="preserve" transform="matrix(1.0039919 0 -0 .996024 0 121.323)" font-size="70.35764" font-family="LegacySansStd" font-weight="bold"><tspan y="-62.685438" x="8.375964 42.99192 93.79014 136.77866 187.57688 232.46504">LUXURY</tspan></text>
+</g>
+</g>
+</g>
+</svg>
